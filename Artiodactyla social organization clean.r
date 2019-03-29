@@ -430,11 +430,11 @@ points(x=73, y=0, pch=15, cex=0.7, col=wes_palettes$Zissou[3])
 points(x=74, y=0, pch=15, cex=0.7, col=wes_palettes$Zissou[4])
 points(x=75, y=0, pch=15, cex=0.7, col=wes_palettes$Zissou[5])
 
-for(i in 1:nrow(t2)){if(t[i,1]>0) points(x=71, y=100-i, pch=15, cex=0.7, col=wes_palettes$Zissou[1])}
-for(i in 1:nrow(t2)){if(t[i,3]>0) points(x=72, y=100-i, pch=15, cex=0.7, col=wes_palettes$Zissou[2])}
-for(i in 1:nrow(t2)){if(t[i,4]>0) points(x=73, y=100-i, pch=15, cex=0.7, col=wes_palettes$Zissou[3])}
-for(i in 1:nrow(t2)){if(t[i,2]>0) points(x=74, y=100-i, pch=15, cex=0.7, col=wes_palettes$Zissou[4])}
-for(i in 1:nrow(t2)){if(t[i,5]>0) points(x=75, y=100-i, pch=15, cex=0.7, col=wes_palettes$Zissou[5])}
+for(i in 1:nrow(t2)){if(t2[i,1]>0) points(x=71, y=0+i, pch=15, cex=0.7, col=wes_palettes$Zissou[1])}
+for(i in 1:nrow(t2)){if(t2[i,3]>0) points(x=72, y=0+i, pch=15, cex=0.7, col=wes_palettes$Zissou[2])}
+for(i in 1:nrow(t2)){if(t2[i,4]>0) points(x=73, y=0+i, pch=15, cex=0.7, col=wes_palettes$Zissou[3])}
+for(i in 1:nrow(t2)){if(t2[i,2]>0) points(x=74, y=0+i, pch=15, cex=0.7, col=wes_palettes$Zissou[4])}
+for(i in 1:nrow(t2)){if(t2[i,5]>0) points(x=75, y=0+i, pch=15, cex=0.7, col=wes_palettes$Zissou[5])}
 
 ## create inset plots
 par(fig = c(0.05,0.4, 0.2, 0.6), mar = c(2, 2, 4, 2), new = T)
