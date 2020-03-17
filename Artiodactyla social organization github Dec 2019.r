@@ -19,7 +19,7 @@ options(mc.cores = parallel::detectCores())
 	###################
 
 ## read data file
-d<- as.data.frame(read_excel("Artiodacytla_Dataset_corrected_17 Dec.xlsx", sheet=1, skip=6)) # assuming working directory is set to the folder containing this file
+d<- as.data.frame(read_excel("Artiodactyla_Dataset_corrected_11Mar.xlsx", sheet=1, skip=6)) # assuming working directory is set to the folder containing this file
 
 
 # fix continent misspellings
